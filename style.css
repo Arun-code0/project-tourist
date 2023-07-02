@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+*{
+    margin: 0;
+    padding: 0;font-family: 'Bacasime Antique', serif;
+    font-family: 'Bacasime Antique', serif;
+}
+.showcase{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color:white;
+    padding: 0 20px;
+    
+}
+.videos{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.content{
+    z-index: 1;
+}
+.videos video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    filter: brightness(30%);
+}
+.btn{
+    background-color: rgb(52, 16, 151);
+    color: white;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    padding: 15px 60px;
+    font-size: 30px;
+}
+
+.temple{
+    
+    display: flex;
+}
+.head{
+    padding-top: 40px;
+    font-size: 45px;
+ font-weight: bold;
+}
+.Dam{
+    display: flex;
+}
+.Park{
+    display: flex;
+}
+.spot{
+    display: flex;
+}
+.subt{
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+}
